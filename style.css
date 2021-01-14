@@ -47,7 +47,7 @@ body {
   height: 200px;
   border-top: 10px solid var(--frame-color);
   border-bottom: 10px solid var(--frame-color);
-  animation: rotateFrame 5s infinite;
+  animation: rotateFrame 10s infinite;
 }
 
 @keyframes rotateFrame {
@@ -81,7 +81,7 @@ body {
   height: 80px;
   bottom: 0;
   background: var(--sand-color);
-  animation: 5s lowerTopSand infinite;
+  animation: 10s lowerTopSand infinite;
 }
 
 .top::after {
@@ -130,7 +130,7 @@ body {
   height: 80px;
   bottom: 0;
   background: var(--sand-color);
-  animation: 5s raiseBottomSand infinite;
+  animation: 10s raiseBottomSand infinite;
 }
 
 .blob {
@@ -143,7 +143,7 @@ body {
   height: 50px;
   border-radius: 50%;
   background: var(--sand-color);
-  animation: raiseMound 5s infinite;
+  animation: raiseMound 10s infinite;
 }
 
 @keyframes raiseMound {
@@ -182,7 +182,7 @@ body {
 
   border-top: 10px solid var(--sand-color);
 
-  animation: fadeDrip 5s infinite;
+  animation: fadeDrip 10s infinite;
 }
 
 @keyframes fadeDrip {
@@ -212,7 +212,7 @@ body {
     transparent 5px,
     transparent 10px
   );
-  animation: drip 5s infinite;
+  animation: drip 10s infinite;
 }
 
 @keyframes drip {
