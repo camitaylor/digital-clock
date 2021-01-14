@@ -27,8 +27,8 @@ body {
 }
 :root {
   --glass-color: #919eb3;
-  --frame-color: rgb(100, 96, 96);
-  --sand-color: black;
+  --frame-color: rgb(29, 20, 20);
+  --sand-color: rgb(43, 34, 34);
 }
 
 .box-canvas {
